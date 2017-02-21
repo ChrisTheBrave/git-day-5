@@ -1,0 +1,21 @@
+
+main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 10em;
+
+}
+
+
+article {
+  flex: 0 0 20%;
+  background-color: red;
+  padding: 1em;
+  box-sizing: border-box;
+}
+
+.special {
+  align-self: flex-start;
+}
